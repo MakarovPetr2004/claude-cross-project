@@ -15,13 +15,13 @@ All projects are discovered automatically from the parent directory of your curr
 
 ### From GitHub (recommended)
 ```bash
-git clone https://github.com/Nintiko/claude-cross-project.git
+git clone https://github.com/MakarovPetr2004/claude-cross-project.git
 cc --plugin-dir /path/to/claude-cross-project
 ```
 
 ### One-liner
 ```bash
-git clone https://github.com/Nintiko/claude-cross-project.git ~/.claude/plugins/cross-project
+git clone https://github.com/MakarovPetr2004/claude-cross-project.git ~/.claude/plugins/cross-project
 cc --plugin-dir ~/.claude/plugins/cross-project
 ```
 
