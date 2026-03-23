@@ -1,0 +1,13 @@
+{
+  "name": "cross-project",
+  "version": "1.0.0",
+  "description": "Cross-project exploration and editing skill for Claude Code. Spawn parallel subagents to explore or edit sibling projects. Supports Russian and English commands.",
+  "author": {
+    "name": "Nintiko",
+    "email": "mr.ru.20042004@gmail.com",
+    "url": "https://github.com/Nintiko"
+  },
+  "repository": "https://github.com/Nintiko/claude-cross-project",
+  "license": "MIT",
+  "keywords": ["cross-project", "multi-project", "subagents", "exploration", "monorepo"]
+}
