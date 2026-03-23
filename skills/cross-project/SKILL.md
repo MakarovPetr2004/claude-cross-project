@@ -1,14 +1,23 @@
 ---
 name: cross-project
-description: Используй этот скилл всякий раз, когда задача затрагивает несколько проектов. Триггеры: пользователь упоминает названия смежных проектов рядом с задачей ("в этой задаче понадобится union", "нужно проверить academy_frontend"), пишет "исследуй X", "изучи X", "отредактируй X", "запомни взаимодействие", или вызывает /cross-project. Use this skill whenever working across multiple projects — user mentions project names alongside a task, says "investigate X", "edit X project", "save interaction to memory", or calls /cross-project. Invoke proactively when the task clearly spans multiple codebases.
+description: >-
+  Используй этот скилл всякий раз, когда задача затрагивает несколько проектов.
+  Триггеры: пользователь упоминает названия смежных проектов рядом с задачей
+  (например "в этой задаче понадобится union", "нужно проверить academy_frontend"),
+  пишет "исследуй X", "изучи X", "отредактируй X", "запомни взаимодействие",
+  или вызывает /cross-project.
+  Use this skill whenever working across multiple projects — user mentions project
+  names alongside a task, says "investigate X", "edit X project",
+  "save interaction to memory", or calls /cross-project.
+  Invoke proactively when the task clearly spans multiple codebases.
 ---
 
 ## Шаг 1: Определение директорий
 
 Run `pwd` to get the current project directory. **Base dir** = one level up (parent directory).
 
-- Windows bash: `/c/Users/<username>/PycharmProjects/api` → base: `/c/Users/<username>/PycharmProjects/`
-- macOS/Linux: `/Users/<username>/Projects/api` → base: `/Users/<username>/Projects/`
+- Windows bash: `/c/Users/Nintiko/PycharmProjects/api` → base: `/c/Users/Nintiko/PycharmProjects/`
+- macOS/Linux: `/Users/john/Projects/api` → base: `/Users/john/Projects/`
 
 ## Шаг 2: Разбор аргументов и режим
 
